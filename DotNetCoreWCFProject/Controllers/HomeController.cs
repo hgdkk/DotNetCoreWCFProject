@@ -15,7 +15,7 @@ namespace DotNetCoreWCFProject.Controllers
             Data d = new Data();
             d.DataValue = await service.GetDataAsync(5);
             ViewData["DataModel"] = d;
-            return View();
+            return View(); 
         }
 
        
