@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @{
+        var data = ViewData["DataModel"] as DotNetCoreWCFProject.Models.Data;
+    }
+    <p>@data.DataValue</p>
+</head>
+<body>
+</body>
+</html>
